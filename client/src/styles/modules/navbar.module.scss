@@ -1,0 +1,28 @@
+.navbar {
+    height: 50px;
+    background-color: rgba(15, 14, 14, 0.898);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.logo {}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.listItem {
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;  //fix image distortion
+}
